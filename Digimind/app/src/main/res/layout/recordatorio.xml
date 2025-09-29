@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_background"
+    android:padding="12dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvNombreRecordatorio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="@string/monday"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/colorLetter"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDiasRecordatorio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/friday"
+        android:textColor="@color/colorLetter"
+        android:textSize="15sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvTiempoRecordatorio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="@string/friday"
+        android:textColor="@color/colorLetter"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"
+         />
+
+</LinearLayout>
