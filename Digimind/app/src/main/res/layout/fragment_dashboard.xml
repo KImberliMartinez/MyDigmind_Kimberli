@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorAccent"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:text="@string/what_do_you_to_do_remember_to_do" />
 
         <EditText
@@ -182,8 +182,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="@string/register_reminder"
-            android:textColor="@color/colorPrimaryDark"
+            android:text="DONE"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorAccent"
             />
 
     </LinearLayout>
